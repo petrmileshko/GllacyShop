@@ -4,7 +4,7 @@
 * Студент: [Светлана Дмитриева](https://htmlacademy.ru/profile/SvetDmi).
 * Наставник: `Неизвестно`.
 
-[Критерии] (https://up.htmlacademy.ru/profession/frontender-lite/2/lite-htmlcss/2/criteries#CONT)
+### [Критерии](https://up.htmlacademy.ru/profession/frontender-lite/2/lite-htmlcss/2/criteries#CONT)
 
 [План выполнения и распределение задач](https://github.com/petrmileshko/GllacyShop/blob/main/Contributing.md)
 ---
