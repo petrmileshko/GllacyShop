@@ -88,6 +88,21 @@ HTML-03. Кнопки и ссылки.
       </ul>
 
       <!-- Раздел документации, ссылки разделены на два блока для будущей стилизации в 2 колонки -->
+	    
+	    	    <!-- 
+	Согласно спецификации тег ul имеет 
+		Content modelp137: Zero or more lip229 and script-supportingp142 elements.
+	Что означает вложение в <ul> возможно только тега <li> 
+
+После проверки валидатором имеем такую ошибку:
+
+Error: Element div not allowed as child of element ul in this context. (Suppressing further errors from this subtree.)
+
+From line 99, column 9; to line 99, column 13
+
+>↩        <div>↩     
+	
+-->
       <ul class="documentation">
         <div>
           <li class="documentation__item">
