@@ -1,64 +1,113 @@
 <!DOCTYPE html>
 
 <html class="page" lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Gllacy Shop</title>
+  </head>
+  <!-- Главная Страница домашняя  -->
 
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.css">
-	<title>Glassy Shop</title>
-</head>
-<!-- Главная Страница домашняя  -->
+  <body class="home-page">
+    <!-- Хедер -->
+    <header class="header">
+      <a href="index.html" class="header__logo">
+        <img src="./images/Лого.svg" alt="Логотип Gllacy Shop" />
+      </a>
+      <!-- Основное меню -->
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__items">
+            <a href="catalog.html" class="menu__link">Каталог</a>
+          </li>
+          <li class="menu__items">
+            <a href="#" class="menu__link">Доставка и оплата</a>
+          </li>
+          <li class="menu__items">
+            <a href="#" class="menu__link">О компании</a>
+          </li>
+        </ul>
+      </nav>
 
-<body class="home-page">
+      <a href="tel:+78005558628 " class="header__tel">+7 800 555-86-28</a>
 
-	<header class="site-header">
-		<!-- Шапка сайта -->
+      <!-- Пользовательское меню -->
+      <!-- Мне кажется тут лучше кнопки, а не ссылки? -->
+      <ul class="user">
+        <li class="user__items">
+          <span class="hidden">Поиск</span>
+          <button></button>
+        </li>
+        <li class="user__items">
+          <button class="user__btn">Вход</button>
+        </li>
+        <li class="user__items">
+          <button class="user__btn">2 товара</button>
+        </li>
+      </ul>
+    </header>
 
-		<nav class="site-navigation">
-			<!-- Основная навигация по сайту -->
-			<h2 class="visually-hidden">Основная навигация по сайту</h2>
+    <main class="main-content">
+      <!-- Основное содержимое страницы -->
+    </main>
 
-			<ul class="navigation-list main-menu">
+    <!-- Подвал сайта -->
+    <!-- Я не вижу тут nav, им рекомендуется обозначать основное меню, ведущее на разделы сайта или страницы, в первую очередь для роботов. Соцсети и документация - 	это дополнения, которые роботам не шибко нужны, и путать их не стоит, мне кажется 
+	Насколько нужен заголовок для блока социальных сетей - не знаю, на всякий случай поставила, хотя ссылки итак обозначены и прочитаются-->
+    <footer class="footer">
+      <h3 class="visually-hidden">Наши социальные сети</h3>
+      <ul class="socials">
+        <li class="social__items">
+          <a href="https://t.me/htmlacademy" class="social__link"></a>
+          <span class="visually-hidden">Телеграм</span>
+        </li>
+        <li class="social__items">
+          <a href="https://vk.com/htmlacademy" class="social__link"></a>
+          <span class="visually-hidden">ВКонтакте</span>
+        </li>
+        <li class="social__items">
+          <a
+            href=" https://www.youtube.com/user/htmlacademyru"
+            class="social__link"
+          ></a>
+          <span class="visually-hidden">Ютуб</span>
+        </li>
+      </ul>
 
-			</ul>
+      <!-- Раздел документации, ссылки разделены на два блока для будущей стилизации в 2 колонки -->
+      <ul class="documentation">
+        <div>
+          <li class="documentation__item">
+            <span class="documentation__icon"></span>
+            <a href="#" class="documentation__link">Для поставщиков</a>
+          </li>
+          <li class="documentation__item">
+            <a href="#" class="documentation__link">О производстве</a>
+          </li>
+        </div>
+        <div>
+          <li class="documentation__item">
+            <a href="#" class="documentation__link">Наши документы</a>
+          </li>
+          <li class="documentation__item">
+            <a href="#" class="documentation__link">Экологические стандарты</a>
+          </li>
+        </div>
+      </ul>
 
-			<ul class="navigation-list user-menu">
-
-			</ul>
-
-		</nav>
-
-	</header>
-
-	<main class="main-content">
-		<!-- Основное содержимое страницы -->
-
-	</main>
-
-	<footer class="site-footer">
-		<!-- Подвал сайта -->
-
-		<nav class="footer-navigation ">
-			<!-- Дополнительная навигация по ресурсам -->
-			<h2 class="visually-hidden">Дополнительная навигация по ресурсам</h2>
-
-			<ul class="navigation-list socials-links">
-
-			</ul>
-
-			<ul class="navigation-list documentation-links">
-
-			</ul>
-
-			<ul class="navigation-list developers-links">
-
-			</ul>
-		</nav>
-
-	</footer>
-
-</body>
-
+      <div class="copyright">
+        <a href="https://htmlacademy.ru" class="copyright__logo">
+          <img
+            src="./images/logo_htmlacademy.svg"
+            alt="Логотип HTML академии"
+          />
+        </a>
+        <p>
+          Сделано в <a href="https://htmlacademy.ru">.html academy</a>© 2021
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
