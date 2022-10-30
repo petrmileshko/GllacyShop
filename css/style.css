@@ -1,35 +1,8 @@
-/*
-	Загрузка шрифтов начало
-*/
-@font-face {
-}
-/* Окончание загрузки шрифтов */
+@import url(./normalize.css);
+@import url(./fonts.css);
+@import url(./utility.css);
 
-/* Служебные стили */
-.visually-hidden {
-}
-
-/* переопределение стилей браузера */
-/* Их я вынесла в нормалайз отдельно */
-
-/* Корень страницы html */
-.page {
-}
-
-/* Тело главной страницы (body) */
-.home-page {
-}
-
-/* Тело страницы каталога  (body) */
-.catalog-page {
-}
-
-/* Главная страница */
-.home-page .main-content {
-  /* Основное содержимое */
-}
-
-/* Cтраница каталога */
-.catalog-page .main-content {
-  /* Основное содержимое */
-}
+@import url(./header.css);
+@import url(./footer.css);
+@import url(./main.css);
+@import url(./catalog.css);
