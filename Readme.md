@@ -5,7 +5,7 @@
 * Наставник: `Неизвестно`.
 
 ### [Соблюдать соответсвие критериям проекта](https://up.htmlacademy.ru/profession/frontender-lite/2/lite-htmlcss/2/criteries#CONT)
-### [Соблюдать соответсвие спецификации HTML5] (https://html.spec.whatwg.org/multipage/)
+### [Соблюдать соответсвие спецификации HTML5](https://html.spec.whatwg.org/multipage/)
 [План выполнения и распределение задач](https://github.com/petrmileshko/GllacyShop/blob/main/Contributing.md)
 ---
 
