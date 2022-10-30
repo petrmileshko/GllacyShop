@@ -6,7 +6,7 @@
 
 ### [Соблюдать соответсвие критериям проекта](https://up.htmlacademy.ru/profession/frontender-lite/2/lite-htmlcss/2/criteries#CONT)
 ### [Соблюдать соответсвие спецификации HTML5](https://html.spec.whatwg.org/multipage/)
-[План распределение и правила выполнения задач](https://github.com/petrmileshko/GllacyShop/blob/main/Contributing.md)
+[План распределения и правил выполнения задач](https://github.com/petrmileshko/GllacyShop/blob/main/Contributing.md)
 ---
 
 <a href="https://htmlacademy.ru/intensive/htmlcss"><img align="left" width="50" height="50" alt="HTML Academy" src="https://up.htmlacademy.ru/static/img/intensive/htmlcss/logo-for-github-2.png"></a>
